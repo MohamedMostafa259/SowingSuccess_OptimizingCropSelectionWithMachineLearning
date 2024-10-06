@@ -44,7 +44,7 @@ This project follows a structured approach to build a reliable classification mo
   
    - Identified **potassium (K)** as the most predictive feature for determining the optimal crop.
   
-      ![https://github.com/MohamedMostafa259/SowingSuccess_OptimizingCropSelectionWithMachineLearning/blob/main/AccuracyOfEachFeature.png?raw=true](AccuracyOfEachFeature)
+      ![AccuracyOfEachFeature](https://github.com/MohamedMostafa259/SowingSuccess_OptimizingCropSelectionWithMachineLearning/blob/main/AccuracyOfEachFeature.png?raw=true)
 
    - trained a model on all soil measurements in the dataset, and then investigated its accuracy for **optimizing crop selection** ($\approx$ 68%)
 
