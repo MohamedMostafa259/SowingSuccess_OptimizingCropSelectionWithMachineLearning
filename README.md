@@ -29,15 +29,23 @@ The dataset includes the following columns:
 This project follows a structured approach to build a reliable classification model:
 
 1. **Data Cleaning**:
+  
    - Removed missing values accounting for less than 5% of the dataset to ensure data consistency.
 
 2. **Data Preparation**:
+  
    - Split the dataset into training and testing sets.
+  
    - Built a **pipeline** to integrate data imputation, scaling, and model training into a single workflow.
 
 3. **Feature Selection**:
+  
    - Investigated each soil feature's predictive performance using accuracy as the metric.
+  
    - Identified **potassium (K)** as the most predictive feature for determining the optimal crop.
+  
+      ![https://github.com/MohamedMostafa259/SowingSuccess_OptimizingCropSelectionWithMachineLearning/blob/main/AccuracyOfEachFeature.png](AccuracyOfEachFeature)
+
    - trained a model on all soil measurements in the dataset, and then investigated its accuracy for **optimizing crop selection** ($\approx$ 68%)
 
 <br>
